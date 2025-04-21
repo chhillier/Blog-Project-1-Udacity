@@ -35,3 +35,17 @@
 ## Conclusion
 
 #### Hardest part of the project was the EDA. Figuring out how to split this thing without losing a bunch of data was the most time consuming part. I feel a lot of the features give away the answer whether by using the lat long, site, or even code. Example if an Italian code was carved into the pottery it will most likely be close to its origin, Italy. There will be outliers of course but in this case it generally gives the answer.
+
+## Data Source
+
+The `stamps.csv` dataset used in this analysis originates from the research published in the following paper:
+
+* Rubio-Campillo, X., Montanier,, J.M., Rull, G., Bermúdez Lorenzo, J.M., Moros Díaz, J., Pérez González, J., Remesal Rodríguez, J. (2018) *The ecology of Roman trade. Reconstructing provincial connectivity with similarity measures*, Journal of Archaeological Science, 92, pp. 37-47. doi:[10.1016/j.jas.2018.02.010](https://doi.org/10.1016/j.jas.2018.02.010)
+
+**To obtain the data:**
+
+* **Option 1 (Preferred):** Check the journal article page (via the DOI link above) for supplementary materials or links to an official data repository associated with the publication.
+* **Option 2 (Where Found):** If an official source isn't readily available, the dataset was located within this GitHub repository: (https://github.com/xrubio/ecologyStamps.git)
+
+Please download the `stamps.csv` file from the appropriate source and place it in the `ecologyStamps/data/` directory within this project folder to run the analysis notebook/script.
+
